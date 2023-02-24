@@ -25,4 +25,4 @@ rows = run_query("select emp_id from `NTT.employee`")
 # Print results.
 st.write("Some wise words from Shakespeare:")
 for row in rows:
-    st.write("✍️ " + row['word'])
+    st.write(row['emp_id'])
